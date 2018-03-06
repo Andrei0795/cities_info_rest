@@ -1,0 +1,8 @@
+---
+applications:
+- name: cities-info-rest-service
+  memory: 256M
+  instances: 1
+  host: rest-service
+  domain: guides.spring.io
+  path: build/libs/cities-info-rest-service-1.0.0.jar
