@@ -13,8 +13,15 @@ To run the app, just go into the main folder in your terminal and write `./gradl
 I assume that you have gradle installed. I used homebrew to install it.
 
 ### Example:
-Once you have the service running, just go to your browser and write `http://localhost:8080/city?cityName=Manchester`. You should get a JSON with the following results `{"id":3,"cityId":1,"name":"Manchester","country":"United Kingdom","population":500000,"lat":53.483959,"lon":-2.244644}`.
-If you haven't entered the extension `?cityName=CITY` or you have entered a city which is not in the database, you will get something like `{"id":2,"cityId":0,"name":"City not entered or not found!","country":"","population":0,"lat":0.0,"lon":0.0}`
+Once you have the service running, just go to your browser and write
+`http://localhost:8080/city?cityName=Manchester`, you should get a JSON with the following results
+`{"id":3,"cityId":1,"name":"Manchester","country":"United Kingdom","population":500000,"lat":53.483959,"lon":-2.244644}`.
+If you haven't entered the extension `?cityName=CITY` or you have entered a city which is not in the database, you will get something like
+`{"id":2,"cityId":0,"name":"City not entered or not found!","country":"","population":0,"lat":0.0,"lon":0.0}`
+
+There is a demo video as well in the project. 
+
+
 
 ### TODO:
 make a request using ID as well. At the moment you can only put the name of the city
